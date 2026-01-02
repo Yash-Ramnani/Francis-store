@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francis Store</title>
+    
+    <link rel="stylesheet" href="CSS/francis.css">
+    <script src="JS/francis.js" defer></script>    
+</head>
+<body>
+<div class="head">
+    <a href="Francis.html">
+    <h1 class="heading">FRANCIS STORE</h1>
+    </a></div>
+    
+        <nav class="navigation">
+    <div class="link">
+         <a href="Francis.html">Home</a>
+        <a href="Sweets.html">Sweets</a>
+        <a href="Snacks.html">Snacks</a>
+        <a href="Bakery.html">Bakery</a>
+        <a href="Fruit.html">Fruits</a>
+        <a href="Dairy.html">Dairy</a>
+        <a href="Beverages.html">Beverages</a>
+        
+    </div>
+
+    <div class="nav-right">
+        <input type="text" placeholder="Search..." class="search">
+    </div>
+</nav>
+
+    <u><h1 style="text-align: center;
+    font-size: 300%;">Fruits:</h1></u>
+    <u><h2 class="text-2xl font-bold mb-2">Farm Fresh Picks</h2></u>
+
+
+<div class="feature-grid">
+
+    
+    <div class="card ltr">
+        <img src="Images/mango.webp" alt="Mango">
+        <div class="info">
+            <h3>Mango</h3>
+            <p>Price: ₹150 / 1kg<br>Calories: 60 kcal/100g<br>Sweet & Pulpy Fruit.</p>
+            <button onclick="addToCart('Mango')">Add to cart</button>
+        </div>
+    </div>
+
+    <div class="card ltr">
+        <img src="Images/apple.webp" alt="Apple">
+        <div class="info">
+            <h3>Apple</h3>
+            <p>Price: ₹120 / 1kg<br>Calories: 52 kcal/100gm<br>Fresh crunchy and sweet fruit.</p>
+            <button onclick="addToCart('Apple')">Add to cart</button>
+        </div>
+    </div>
+
+    <div class="card ltr">
+        <img src="Images/banana.jpg" alt="Banana">
+        <div class="info">
+            <h3>Banana</h3>
+            <p>Price: ₹80 / dozen<br>Calories: 89 kcal/100gm<br>Soft,energy-boosting fruit.</p>
+            <button onclick="addToCart('Banana')">Add to cart</button>
+        </div>
+    </div>
+
+
+    <div class="card ltr">
+        <img src="Images/grapes.jpg" alt="Grapes">
+        <div class="info">
+            <h3>Grapes</h3>
+            <p>Price: ₹90 / 500g<br>Calories: 70 kcal/100gm<br>JUicy,bite-sized fruit.</p>
+            <button onclick="addToCart('Grapes')">Add to cart</button>
+        </div>
+    </div>
+
+</div>
+
+
+<footer>
+        <button onclick="location.href='cart.html'">Go to Cart</button>
+        <p>&copy; 2024 Francis Store. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

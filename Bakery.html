@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francis Store</title>
+    
+    <link rel="stylesheet" href="CSS/francis.css">
+    <script src="JS/francis.js" defer></script>
+    
+</head>
+<body>
+    <div class="head">
+    <a href="Francis.html">
+    <h1 class="heading">FRANCIS STORE</h1>
+    </a></div>
+    
+        <nav class="navigation">
+    <div class="link">
+         <a href="Francis.html">Home</a>
+        <a href="Sweets.html">Sweets</a>
+        <a href="Snacks.html">Snacks</a>
+        <a href="Bakery.html">Bakery</a>
+        <a href="Fruit.html">Fruits</a>
+        <a href="Dairy.html">Dairy</a>
+        <a href="Beverages.html">Beverages</a>
+        
+    </div>
+
+    <div class="nav-right">
+        <input type="text" placeholder="Search..." class="search">
+    </div>
+</nav>
+
+    <u><h1 style="text-align: center;
+    font-size: 300%;">Bakery:</h1></u>
+    <u><h2 class="text-2xl font-bold mb-2">Baked Goodness</h2></u>
+
+
+<div class="feature-grid">
+
+    
+    <div class="card ltr">
+        <img src="Images/pancake.jpg" alt="Pancakes">
+        <div class="info">
+            <h3>Pancakes</h3>
+            <p>Price: ₹200 / 100g<br>Calories: 180 kcal<br>Soft Fluffy Pan-Cakes.</p>
+            <button onclick="addToCart('Pancakes')">Add to cart</button>
+        </div>
+    </div>
+
+    <div class="card ltr">
+        <img src="Images/pie.jpg" alt="Pie">
+        <div class="info">
+            <h3>Pie</h3>
+            <p>Price: ₹250 / 100g<br>Calories: 250 kcal<br>Butterly crust filled with sweet fillings.</p>
+            <button onclick="addToCart('Pie')">Add to cart</button>
+        </div>
+    </div>
+
+    <div class="card ltr">
+        <img src="Images/donut.avif" alt="Donuts">
+        <div class="info">
+            <h3>Donut</h3>
+            <p>Price: ₹100 / 80g<br>Calories: 220 kcal<br>Soft ring shaped cakes.</p>
+            <button onclick="addToCart('Donut')">Add to cart</button>
+        </div>
+    </div>
+
+
+    <div class="card ltr">
+        <img src="Images/croissant.webp" alt="Croissant">
+        <div class="info">
+            <h3>Croissant</h3>
+            <p>Price: ₹100 / 75g<br>Calories: 230 kcal<br>Flaky & Butterly French pastry.</p>
+            <button onclick="addToCart('Croissant')">Add to cart</button>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+        <button onclick="location.href='cart.html'">Go to Cart</button>
+        <p>&copy; 2024 Francis Store. All rights reserved.</p>
+    </footer>
+
+
+
+</body>
+
+</html>

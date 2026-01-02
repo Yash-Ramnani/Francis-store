@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francis Store</title>
+    
+    <link rel="stylesheet" href="CSS/francis.css">
+    <script src="JS/francis.js" defer></script>    
+</head>
+<body>
+<div class="head">
+    <a href="Francis.html">
+    <h1 class="heading">FRANCIS STORE</h1>
+    </a></div>
+    
+        <nav class="navigation">
+    <div class="link">
+         <a href="Francis.html">Home</a>
+        <a href="Sweets.html">Sweets</a>
+        <a href="Snacks.html">Snacks</a>
+        <a href="Bakery.html">Bakery</a>
+        <a href="Fruit.html">Fruits</a>
+        <a href="Dairy.html">Dairy</a>
+        <a href="Beverages.html">Beverages</a>
+        
+    </div>
+
+    <div class="nav-right">
+        <input type="text" placeholder="Search..." class="search">
+    </div>
+</nav>
+
+    <u><h1 style="text-align: center;
+    font-size: 300%;">Beverages:</h1></u>
+    <u><h2 class="text-2xl font-bold mb-2">Refreshing Beverages</h2></u>
+
+
+<div class="feature-grid">
+
+    
+    <div class="card ltr">
+        <img src="Images/cheez.jpg" alt="Cheez Doodles">
+        <div class="info">
+            <h3>Cheez Doodles</h3>
+            <p>Price: ₹120 / 60g<br>Calories: 150 kcal<br>Crunchy cheese flavoured.</p>
+        <button onclick="addToCart('Cheez Doodles')">Add to cart</button>
+        </div>
+    </div>
+
+    <div class="card ltr">
+        <img src="Images/snackpack.webp" alt="Snacks">
+        <div class="info">
+            <h3>Healthy Snack Pack</h3>
+            <p>Price: ₹150 / 100g<br>Calories: 300 kcal/pack<br>Nut & seed healthy mix.</p>
+            <button onclick="addToCart('Healthy Snack Pack')">Add to cart</button>
+        </div>
+    </div>
+
+    <div class="card ltr">
+        <img src="Images/fruichias.webp" alt="Provotic Fruichias">
+        <div class="info">
+            <h3>Provotic Fruichias</h3>
+            <p>Price: ₹80 / 40g<br>Calories: 100 kcal/pack<br>Fruity probiotic snack mix.</p>
+            <button onclick="addToCart('Provotic Fruichias')">Add to cart</button>
+        </div>
+    </div>
+
+
+    <div class="card ltr">
+        <img src="Images/proteinbar.webp" alt="Profitness protein bar">
+        <div class="info">
+            <h3>Profitness Protein Bar</h3>
+            <p>Price: ₹450 / 300g<br>Calories: 190 kcal/bar<br>High protein energy bars.</p>
+            <button onclick="addToCart('Profitness Protein Bar')">Add to cart</button>
+        </div>
+    </div>
+
+</div>
+
+
+<footer>
+        <button onclick="location.href='cart.html'">Go to Cart</button>
+        <p>&copy; 2024 Francis Store. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

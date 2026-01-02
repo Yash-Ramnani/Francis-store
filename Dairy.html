@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francis Store</title>
+    
+    <link rel="stylesheet" href="CSS/francis.css">
+    <script src="JS/francis.js" defer></script>    
+</head>
+<body>
+    <div class="head">
+    <a href="Francis.html">
+    <h1 class="heading">FRANCIS STORE</h1>
+    </a></div>
+    
+        <nav class="navigation">
+    <div class="link">
+         <a href="Francis.html">Home</a>
+        <a href="Sweets.html">Sweets</a>
+        <a href="Snacks.html">Snacks</a>
+        <a href="Bakery.html">Bakery</a>
+        <a href="Fruit.html">Fruits</a>
+        <a href="Dairy.html">Dairy</a>
+        <a href="Beverages.html">Beverages</a>
+        
+    </div>
+
+    <div class="nav-right">
+        <input type="text" placeholder="Search..." class="search">
+    </div>
+</nav>
+
+    <u><h1 style="text-align: center;
+    font-size: 300%;">Dairy Products:</h1></u>
+    <u><h2 class="text-2xl font-bold mb-2">Farm Fresh Dairy</h2></u>
+
+
+<div class="feature-grid">
+
+    
+    <div class="card ltr">
+        <img src="Images/milk.avif" alt="Milk">
+        <div class="info">
+            <h3>Milk (Toned)</h3>
+            <p>Price: ₹60 / ltr<br>Calories: 60 kcal/100ml<br>Ideal for daily use.</p>
+            <button onclick="addToCart('Milk (Toned)')">Add to cart</button>
+        </div>
+    </div>
+
+    <div class="card ltr">
+        <img src="Images/curd.jpg" alt="Curd">
+        <div class="info">
+            <h3>Yogurt (Curd)</h3>
+            <p>Price: ₹40 / 200g<br>Calories: 980 kcal/100gm<br>Thick fresh curd packed with probiotics.</p>
+            <button onclick="addToCart('Yogurt (Curd)')">Add to cart</button>
+        </div>
+    </div>
+
+    <div class="card ltr">
+        <img src="Images/cheese.jpg" alt="Cheese">
+        <div class="info">
+            <h3>Cheese</h3>
+            <p>Price: ₹150 / 200g<br>Calories: 300 kcal/100gm<br>Soft processed Cheese.</p>
+            <button onclick="addToCart('Cheese')">Add to cart</button>
+        </div>
+    </div>
+
+
+    <div class="card ltr">
+        <img src="Images/butter.webp" alt="Butter">
+        <div class="info">
+            <h3>Butter</h3>
+            <p>Price: ₹60 / 100g<br>Calories: 720 kcal/100gm<br>Smooth & Creamy butter for cooking/Baking.</p>
+            <button onclick="addToCart('Butter')">Add to cart</button>
+        </div>
+    </div>
+
+</div>
+
+
+<footer>
+        <button onclick="location.href='cart.html'">Go to Cart</button>
+        <p>&copy; 2024 Francis Store. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

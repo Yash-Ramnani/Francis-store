@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francis Store</title>
+    
+    <link rel="stylesheet" href="CSS/francis.css">
+    <script src="JS/francis.js" defer></script>
+</head>
+<body>
+    <div class="head">
+    <a href="Francis.html">
+    <h1 class="heading">FRANCIS STORE</h1>
+    </a></div>
+    
+        <nav class="navigation">
+    <div class="link">
+         <a href="Francis.html">Home</a>
+        <a href="Sweets.html">Sweets</a>
+        <a href="Snacks.html">Snacks</a>
+        <a href="Bakery.html">Bakery</a>
+        <a href="Fruit.html">Fruits</a>
+        <a href="Dairy.html">Dairy</a>
+        <a href="Beverages.html">Beverages</a>
+        
+    </div>
+
+    <div class="nav-right">
+        <input type="text" placeholder="Search..." class="search">
+    </div>
+</nav>
+
+    <u><h1 style="text-align: center;
+    font-size: 300%;">Beverages:</h1></u>
+    <u><h2 class="text-2xl font-bold mb-2">Sip • Chill • Repeat</h2></u>
+
+
+<div class="feature-grid">
+
+    
+    <div class="card ltr">
+        <img src="Images/coldcoffee.jpg" alt="Cold Coffee">
+        <div class="info">
+            <h3>Cold Coffee</h3>
+            <p>Price: ₹100 / 250ml<br>Calories: 120 kcal<br>Smooth & chilled coffee drink.</p>
+            <button onclick="addToCart('Cold Coffee')">Add to cart</button>
+        </div>
+    </div>
+
+    <div class="card ltr">
+        <img src="Images/milkshake.jpg" alt="Chocolate Milkshake">
+        <div class="info">
+            <h3>Chocolate Milkshake</h3>
+            <p>Price: ₹100 / 250ml <br>Calories: 180 kcal<br>Creamy,Sweet milkshake.</p>
+            <button onclick="addToCart('Chocolate Milkshake')">Add to cart</button>
+        </div>
+    </div>
+
+    <div class="card ltr">
+        <img src="Images/lemonjuice.jpg" alt="Lemon Juice">
+        <div class="info">
+            <h3>Lemon Juice</h3>
+            <p>Price: ₹50 / 200ml<br>Calories: 60 kcal<br>Refreshing,tangy citrus juice.</p>
+            <button onclick="addToCart('Lemon Juice')">Add to cart</button>
+        </div>
+    </div>
+
+
+    <div class="card ltr">
+        <img src="Images/orangejuice.jpg" alt="Orange Juice">
+        <div class="info">
+            <h3>Orange Juice</h3>
+            <p>Price: ₹50 / 200ml<br>Calories: 90 kcal<br>Freshly squeezed, Vitamin-C rich juice.</p>
+            <button onclick="addToCart('Orange Juice')">Add to cart</button>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+        <button onclick="location.href='cart.html'">Go to Cart</button>
+        <p>&copy; 2024 Francis Store. All rights reserved.</p>
+    </footer>
+
+
+
+</body>
+
+</html>
