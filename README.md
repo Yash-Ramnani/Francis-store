@@ -1,6 +1,10 @@
 # Francis Store
 
 Francis Store is a responsive e-commerce website showcasing clothing and daily essentials.
+This project showcases my skills, projects, and professional journey in a clean, responsive, and interactive way.
+
+🌐 **Live Demo:** [View Francis Store](https://yash-ramnani.github.io/Francis-store)
+
 
 ## Features
 - Fully responsive design using HTML, CSS, Bootstrap, and JS
